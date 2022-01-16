@@ -96,7 +96,7 @@ header {
 
 header .wrapper {
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 20px;
     text-align: center;
     
 }
@@ -228,7 +228,7 @@ footer {
 
 img {
     width: 100%;
-    margin-bottom: 20px;
+/*    margin-bottom: 20px;*/
 }
 
 @media (prefers-color-scheme: dark) {
@@ -281,7 +281,8 @@ header img.header-image {
 }
 
 .header-title-wrapper {
-    width: 600px;
+    max-width: 600px;
+    min-width: 100px;
     margin-top: 50px;
 }
 
@@ -298,14 +299,37 @@ ul.item-list li {
     margin-left: 0;
 }
 
+ul.item-list li img {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
 .item-list article h1 {
     color: #4cab91;
 }
 
 article h1 {
     color: #333;
+    margin-top: 20px;
 }
 
 article h2 {
     color: #333;
+}
+
+
+.twitter {
+    color: #fff;
+}
+
+.art-grid {
+    align: center;
+    
+}
+
+.art-grid img {
+    width: 32%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 12px;
 }
